@@ -30,7 +30,7 @@ li {
 }
 
 
-
+ 
 .container_sidebar a {
 	color: #f1f1f1;
 }
@@ -40,9 +40,19 @@ li {
     flex-direction: column;
 } */
 .item_list {
-	margin: 2.5em 0 1em 0;
+	margin: 2.5em 0 1em 1.2em;
 	font-size: 25px;
-	text-align: center;
+	/* text-align: center; */
+}
+
+.item_list.special {
+	margin-bottom: -15px;
+}
+.item {
+	margin: 0 0 0 1.2em;
+}
+.fa-solid{
+	color: #fff ;
 }
 
 .item_ul_one {
@@ -53,7 +63,9 @@ li {
 text-decoration: underline;
 
 }
-
+fa-user{
+	color: red;
+}
 h1 {
 	flex-grow: 1;
 	text-align: center;

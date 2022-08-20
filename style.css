@@ -3,10 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	overflow-x: hidden;
-
 }
-
-
 
 a {
 	text-decoration: none;
@@ -20,9 +17,11 @@ li {
 	display: flex;
 	justify-content: space-evenly;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
+.container_sidebar {
+	min-height: 100vmin;
+}
 .container_sidebar section {
 	position: fixed;
 	background-color: #5800ff;
@@ -31,11 +30,8 @@ li {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	
 }
 
-
- 
 .container_sidebar a {
 	color: #f1f1f1;
 }
@@ -56,19 +52,17 @@ li {
 .item {
 	margin: 0 0 0 1.2em;
 }
-.fa-solid{
-	color: #fff ;
+.fa-solid {
+	color: #fff;
 }
 
 .item_ul_one {
-
 }
 
-.item_list:hover{
-text-decoration: underline;
-
+.item_list:hover {
+	text-decoration: underline;
 }
-fa-user{
+fa-user {
 	color: red;
 }
 /* main style */
@@ -78,8 +72,6 @@ fa-user{
 main {
 	flex-grow: 1;
 	text-align: center;
-	
-	
 }
 .section_list {
 	background-color: #f8f1f1;
@@ -111,13 +103,13 @@ main {
 	box-shadow: 0 0 0 10px #a37bee;
 	border-radius: 5px;
 }
-.section_card{
+.section_card {
 	margin-top: 8em;
 	margin-bottom: 1em;
 	margin-left: 24em;
 }
 .div_card {
-     /* background-color: #f8f1f1; */
+	/* background-color: #f8f1f1; */
 	display: flex;
 	/* flex-direction: column; */
 	min-height: 400px;
@@ -125,26 +117,20 @@ main {
 	margin: 0 auto;
 	padding-right: 3em;
 	flex-wrap: wrap;
-	
-	
 }
-
 
 .card {
 	background-color: #a37bee;
 	width: 16em;
 	height: 22em;
-margin: 1em;
-padding: 1em;
+	margin: 1em;
+	padding: 1em;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	font-size: 19px;
 	justify-content: space-around;
-	color:  #f1f1f1;
-;
-	
-	
+	color: #f1f1f1;
 }
 
 .image_card {
@@ -153,4 +139,25 @@ padding: 1em;
 	margin-bottom: 3em;
 }
 
+.tab_wrapper {
+	background-color: #905cef;
+	margin: 0 auto;
+	padding: 5px;
+	width: 1150px;
+	margin-left: 24em;
+	margin-right: 5em;
+	margin-top: 5em;
+	margin-bottom: 0.1em;
+}
+.tab {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10em;
+	margin-bottom: 2em;
+	
 
+}
+
+::selection{
+	background-color: red;
+}
